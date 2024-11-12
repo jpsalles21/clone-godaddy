@@ -25,3 +25,34 @@ li img {
     width: 2rem;
 }
 
+.search-container {
+    margin: 0.5rem 1rem; 
+}
+
+.search-container__content { 
+    display: flex;
+}
+
+search input {
+    width: 100%;
+    border: 0.5px solid;
+    border-right: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 8px 0 0 8px;    
+}
+
+.search-button { 
+    background-color: #0B757A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.search-button img {
+    filter: invert(100%);
+}
+
