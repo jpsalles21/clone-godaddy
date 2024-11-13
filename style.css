@@ -106,7 +106,11 @@ search input {
     font-size: 1rem;
     border: none;
 }
-
+.picture {
+    width: 100%;
+    height: 50%;
+    border-radius: 1rem;
+}
 .card2 {
     background-color: #111111;
     display: flex;
@@ -121,11 +125,6 @@ search input {
     flex: 1;
 }
 
-.picture {
-    width: 100%;
-    height: 50%;
-    border-radius: 1rem;
-}
 
 .card2__content p {
     color: #ffffff;
