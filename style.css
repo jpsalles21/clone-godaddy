@@ -283,3 +283,16 @@ search input {
     margin-top: 0.75rem;   
     font-size: 1.2rem;
 }
+
+.faq {
+    margin: 2rem;
+}
+
+.faq h2 {
+    margin-bottom: 1rem;
+}
+
+.faq details {
+    border-top: 0.5px solid;   
+    padding: 1.125rem 0;   
+}
