@@ -388,6 +388,20 @@ search input {
 }
 
 @media (min-width: 768px) {
+
+    .headline__buttons {       
+        overflow-x: hidden;
+        padding-bottom: 1.25rem;
+    }
+  
+    .headline-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        overflow-x: hidden;
+        flex-direction: column;
+    }
+    
     .footer__container {
         grid-template-columns: repeat(4, 1fr);
     }
