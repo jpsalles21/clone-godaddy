@@ -364,10 +364,6 @@ search input {
     display: none;
 }
 
-.footer__link-item {
-    margin-bottom: 8px;
-}
-
 .footer__link {
     color: #fff;
     text-decoration: none;
