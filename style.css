@@ -333,3 +333,77 @@ search input {
    color: #111111;  
 }
 
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.footer__section {
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.footer__title {
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: none;
+}
+
+.footer__link-item {
+    margin-bottom: 8px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+.footer__title:hover + .footer__links,
+.footer__section:hover .footer__links {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .footer__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer__section {
+        border-bottom: none;
+    }
+    .footer__links {
+        display: block;
+    }
+    .footer__title {
+        cursor: default;
+    }
+}
+
+
